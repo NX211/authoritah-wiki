@@ -1,0 +1,47 @@
+site_name: Authoritah Wiki
+
+repo_url: https://github.com/NX211/authoritah-wiki/
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  features:
+    - search.suggest
+    
+
+plugins:
+  - privacy
+  - search:
+      lang: en
+
+markdown_extensions:
+  - abbr
+  - admonition # enables coloured blocks mid article
+  - attr_list # improves image handling
+  - pymdownx.details # enables collapsible admonitions
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.highlight: # code highlighting
+      linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences # allows for the nesting of code blocks inside other blocks
+  - pymdownx.keys
+
+copyright: >
+  Copyright &copy; 2023 Authoritah.com
+
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/NX211/authoritah-wiki/'
+      name: Authoritah Wiki on GitHub
+  analytics:
+    provider: plausible
+    property: authoritahwiki
+
+nav:
+- Home: index.md
