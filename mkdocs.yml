@@ -41,6 +41,7 @@ extra:
   analytics:
     provider: plausible
     property: authoritahwiki
+  generator: false
 
 nav:
 - Home: index.md
