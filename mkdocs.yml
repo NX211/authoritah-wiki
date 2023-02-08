@@ -12,7 +12,6 @@ theme:
     
 
 plugins:
-  - privacy
   - search:
       lang: en
 
