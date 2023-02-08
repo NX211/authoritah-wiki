@@ -5,7 +5,7 @@ repo_url: https://github.com/NX211/authoritah-wiki/
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/logo.png
+  logo: images/logo.png
   favicon: images/favicon.png
   features:
     - search.suggest
