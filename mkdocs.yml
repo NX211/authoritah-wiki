@@ -44,4 +44,6 @@ extra:
   generator: false
 
 nav:
-- Home: index.md
+  - Home: index.md
+  - Services:
+    - services/index.md
