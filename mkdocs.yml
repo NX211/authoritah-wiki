@@ -9,7 +9,6 @@ theme:
   favicon: images/favicon.png
   features:
     - search.suggest
-    
 
 plugins:
   - search:
@@ -45,5 +44,4 @@ extra:
 
 nav:
   - Home: index.md
-  - Services:
-    - services/index.md
+  - Services: services/index.md
