@@ -45,7 +45,8 @@ extra:
 nav:
   - Home: index.md
   - Services: services/index.md
-  - Hardware: hardware/index.md
+  - Hardware: 
+    - hardware/index.md
     - Automation: hardware/automation.md
     - Network: hardware/network.md
     - Servers: hardware/servers.md
