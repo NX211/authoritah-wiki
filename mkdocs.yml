@@ -8,7 +8,28 @@ theme:
   logo: images/logo.png
   favicon: images/favicon.png
   features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
     - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
 
 plugins:
   - search:
@@ -25,12 +46,22 @@ markdown_extensions:
       toc_depth: 4
   - pymdownx.highlight: # code highlighting
       linenums: true
+      anchor_linenums: true
   - pymdownx.snippets
   - pymdownx.superfences # allows for the nesting of code blocks inside other blocks
   - pymdownx.keys
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.mark
+  - attr_list
 
-copyright: >
-  Copyright &copy; 2023 Authoritah.com
+copyright: |
+  &copy; 2023 <a href="https://www.authoritah.com"  target="_blank" rel="noopener">Authoritah.com</a>
 
 extra:
   social:
@@ -45,7 +76,7 @@ extra:
 nav:
   - Home: index.md
   - Services: services/index.md
-  - Hardware: 
+  - Hardware:
     - hardware/index.md
     - Automation: hardware/automation.md
     - Network: hardware/network.md
