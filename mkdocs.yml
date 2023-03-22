@@ -76,8 +76,7 @@ extra:
 nav:
   - Home: index.md
   - Services: services/index.md
-  - Hardware:
-    - hardware/index.md
-    - Automation: hardware/automation.md
+  - Hardware: hardware/index.md
+    - IoT: hardware/iot.md
     - Network: hardware/network.md
     - Servers: hardware/servers.md
