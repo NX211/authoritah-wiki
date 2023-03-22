@@ -15,6 +15,7 @@
 - [Homer](homer.md) - A very simple static homepage for your server
 - [Elasticsearch](elasticsearch.md) - A Distributed, RESTful Search + Analytics Engine
 - [Authelia](authelia.md) - An Open-Source Authentication + Authorization Server
+- [APCUPSD](apcupsd.md) - APC Uninterruptible Power Supplies Daemon
 
 ## Core Services
 
@@ -27,6 +28,7 @@
 - [Paperless](paperless.md) - Scan, Index and Archive all your Physical Documents
 - [Wallabag](wallabag.md) - Save and classify articles. Read them later. Freely
 - [MkDocs](mkdocs.md) - Fast, Simple + Downright Gorgeous Static Site Generator
+- [CUPS](cups.md) - Common Unix Printing System & Print Server
 
 ## Media Service
 
@@ -49,3 +51,4 @@
 - [Ombi](ombi.md) - Want a movie or TV show on Jellyfin use Ombi
 - [Tautulli](tautulli.md) - Monitor your Plex Media Server
 - [Wizarr](wizarr.md) - Manage Plex Invites + Onboarding
+- [Blue Iris](blueiris.md) - Video Security & Webcam Software
