@@ -77,6 +77,7 @@ nav:
   - Home: index.md
   - Services: services/index.md
   - Hardware:
-    - IoT: hardware/iot.md
-    - Network: hardware/network.md
-    - Servers: hardware/servers.md
+      - hardware/index.md
+      - IoT: hardware/iot.md
+      - Network: hardware/network.md
+      - Servers: hardware/servers.md
