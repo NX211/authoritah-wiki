@@ -51,4 +51,6 @@
 - [Ombi](ombi.md) - Want a movie or TV show on Jellyfin use Ombi
 - [Tautulli](tautulli.md) - Monitor your Plex Media Server
 - [Wizarr](wizarr.md) - Manage Plex Invites + Onboarding
+- [Unpackerr](unpackerr.md) - Automatic Unarchive Tool
+- [Flaresolverr](flaresolverr.md) - Proxy Server to Bypass Cloudflare Protection
 - [Blue Iris](blueiris.md) - Video Security & Webcam Software
