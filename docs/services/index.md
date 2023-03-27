@@ -33,7 +33,7 @@
 ## Media Service
 
 - [SABnzbd](sabnzbd.md) - The automated Usenet download tool
-- [Qbittorrent](qbittorrent.md) - BitTorrent client
+- [Transmission](transmission.md) - BitTorrent client
 - [Prowlarr](prowlarr.md) - A Indexer for Bittorrent and Usenet
 - [Sonarr](sonarr.md) - Smart PVR for newsgroup and bittorrent users
 - [Radarr](radarr.md) - A fork of Sonarr to work with movies à la Couchpotato
