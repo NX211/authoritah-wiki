@@ -2,7 +2,17 @@
 
 ## Enable Automatic Login
 
-Windows + R  `user accesscontrols2`
+Windows + R  `regedit`
+
+Navigate to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Winlogon` 
+
+### Create new Registry Keys
+
+`Edit > New > String Value`
+
+DefaultUserName = $BLUEIRIS_USERNAME
+DefaultPassword = $BLUEIRIS_USER_PASSWORD
+AutoAdminLogon = 1
 
 ## Turn off User Access Control
 
