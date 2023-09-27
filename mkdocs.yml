@@ -1,6 +1,6 @@
 site_name: Authoritah Wiki
 
-repo_url: https://github.com/NX211/authoritah-wiki/
+repo_url: https://authoritah.io/nx211/authoritah-wiki/
 
 theme:
   name: material
@@ -22,14 +22,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: indigo
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: indigo
+      accent: blue
 
 plugins:
   - search:
@@ -61,7 +61,7 @@ markdown_extensions:
   - attr_list
 
 copyright: |
-  &copy; 2023 <a href="https://www.authoritah.com"  target="_blank" rel="noopener">Authoritah.com</a>
+  &copy; 2023 <a href="https://www.authoritah.com"  target="_blank" rel="noopener">Authoritah.com</a>  
 
 extra:
   social:
@@ -76,5 +76,6 @@ extra:
 nav:
   - Home: index.md
   - Services: services/index.md
+  - Projects: projects/index.md
   - Hardware: hardware/index.md
   - Network: network/index.md
