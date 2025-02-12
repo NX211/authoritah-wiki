@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material:9.6.1
+FROM squidfunk/mkdocs-material:9.6.4
 
 RUN git config --global --add safe.directory /docs
 
